@@ -1,3 +1,5 @@
+# to-do-list
+This is a to-do-list react app to make daily tasks easy for you.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
