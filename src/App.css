@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.hoverEffect{
+  transition: all 0.6s ease; /* Smooth transition for all changes */
+  font-weight: 700;
+  font-size: 85px;
+  border: 2px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.hoverEffect:hover{
+  color: white;     /* Change text color to white */
+  background-color: black;  /* Change background color to black */
+}

@@ -5,11 +5,18 @@
 /.pnp
 .pnp.js
 
+
 # testing
 /coverage
 
 # production
 /build
+
+#Ignore env file
+.env
+
+#Ignore node modules file
+node_modules/
 
 # misc
 .DS_Store
