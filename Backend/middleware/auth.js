@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 require('dotenv').config();
 
-const Secret = JWT_SecretKey;
+const Secret = process.env.JWT_SecretKey;
 
 async function restrictToLoggedIn(req,res,next){
       const token = req.header('auth-token');
